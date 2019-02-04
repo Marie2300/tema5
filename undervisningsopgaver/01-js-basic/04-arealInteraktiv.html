@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width" , initial-scale=1.0>
+    <title>
+    </title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <script>
+        let længde = prompt("Angiv længde");
+        let bredde = prompt("Angiv bredde");
+        let areal = længde * bredde;
+
+        let resultat = ` Arealet er ${areal}. Har du brug for et nyt areal?`;
+
+        confirm(resultat);
+
+        if (confirm) {
+            location.reload();
+        }
+
+        //console.log(resultat);
+
+    </script>
+
+</body>
+
+</html>
